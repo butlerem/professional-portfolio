@@ -8,7 +8,8 @@ The purpose of this project for Module 2 is to serve as a portfolio for a potent
 N/A
 
 ## Screenshot
-![Uploading 2023-05-04.png…]()
+![2023-05-04](https://user-images.githubusercontent.com/130527417/236122373-c599597a-505c-4d04-affb-771ab205c559.png)
+
 
 ## Technology Used
 ### 
