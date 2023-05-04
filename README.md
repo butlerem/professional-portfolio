@@ -1,11 +1,7 @@
 # Professional Portfolio
 ## Description
 ### 
-The purpose of this project for Module 2 is to serve as a portfolio for a potential employee's previous work. It includes the employee's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them.
-
-## Installation
-### 
-N/A
+The purpose of this project for Module 2 is to serve as a portfolio for a potential employee's previous work. It includes the employee's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them. You can navigate through the site by clicking on the links in the navigation menu. By clicking one of the links, the UI will automatically scroll to the corresponding section.
 
 ## Screenshot
 ![2023-05-04](https://user-images.githubusercontent.com/130527417/236122373-c599597a-505c-4d04-affb-771ab205c559.png)
