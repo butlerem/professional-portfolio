@@ -1,139 +1,126 @@
-/* Set box-sizing for all elements */
+html, body{
+	font-size:15px;
+	color: #ffffff;
+	background-color: rgb(214, 187, 187); 
+}
 
-{
-  box-sizing: border-box;
-  }
-  /* Define colors used throughout the page */
-  :root {
-  --primary-color: #7a7d81;
-  --secondary-color: #afa2a8;
-  --text-color: #ffffff;
-  --heading-font-size: 40px;
-  --text-font-size: 21px;
-  --background-color: #ffffff;
-  }
-  
-  /* Define styles for the body */
-  body {
-  font-family: 'Poppins', sans-serif;
-  }
-  
-  /* Define styles for the navigation */
-  nav {
-  display: flex;
-  justify-content: space-between;
-  }
-  
-  ul {
-  display: flex;
-  list-style-type: none;
-  width: 500px;
-  justify-content: space-around;
-  font-size: var(--text-font-size);
-  }
-  
-  ul li a {
-  color: white;
-  text-decoration: none;
-  }
-  
-  li {
-  text-decoration: none;
-  }
-  
-  /* Define styles for headings and paragraphs */
-  h1,
-  h2 {
-  display: flex;
-  font-size: var(--heading-font-size);
-  margin: 0;
-  color: var(--text-color);
-  }
-  
-  h2 {
-  margin-left: 20px;
-  }
-  
-  .about {
-  margin-left: 20px;
-  margin-right: 20px;
-  }
-  
-  p {
-  margin-left: 20px;
-  font-size: var(--text-font-size);
-  font-weight: 300;
-  color: var(--text-color);
-  }
-  
-  /* Define styles for the "hero" section */
-  .hero {
-  background-image: url(https://wallpaperaccess.com/full/6386180.jpg);
-  border: solid var(--secondary-color) 1px;
-  height: 100vh;
-  color: var(--text-color);
-  font-size: var(--heading-font-size);
-  text-align: left;
-  }
-  
-  /* Define styles for the hero area */
-  .hero-area {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  }
-  
-  .hero-text {
-  text-align: left;
-  margin: 0 40px 20px 40px;
-  margin-bottom: 100px;
-  }
-  
-  .logo {
-  height: 180px;
-  margin-left: 40px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-radius: 20%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* Define styles for the "section" element */
-  section {
-  height: 500px;
-  background: var(--primary-color);
-  border: solid var(--secondary-color) 1px;
-  }
-  
-  /* Define styles for the footer */
-  footer {
-  background-color: #a7b0bb;
-  height: 10vh;
-  }
-  
-  .image-container {
-  position: relative;
-  float: left;
-  overflow: auto;
-  display: flex;
-  }
-  
-  .project1,
-  .project23 {
-  height: 180px;
-  margin-left: 20px;
-  margin-top: px;
-  border-radius: 5%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  float: left;
-  }
-  
-  .project1 {
-  height: 320px;
-  }
-  
-  /* Edit styles for project labels */
-  .project-label {
-  color: var(--text-color);
-  text-decoration: none;
-  }
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #8b7c87;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background-color: #597d81;
+	background-image: linear-gradient(rgb(255, 220, 220), #82a7a7);
+}
+
+.section-2 {
+	background-color: #8d9c9c;
+} 
+
+.section-3 {
+	background-color: rgb(212, 194, 194);
+}
+
+.nav-bottom {
+	font-size:50px;
+}
+
+.section-4 {
+	background-color: rgb(214, 187, 187);
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #ebe8e8;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:180px;
+	border-radius: 50%;	
+}
+
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+	color: #dadada;
+}
+
+.project-text:hover {
+	color: #fff;
+	background-color: #778e91;
+}
+
+.box {
+	background-color: transparent;
+	border: 1px solid rgba(230, 253, 255, 0.452);
+	text-align: center;
+	font-size: 17px;
+}
+
+.image {
+	border: 2px solid rgba(255, 255, 255, 0.452);
+}
+
+.title {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.about {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #81aaafb4;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}

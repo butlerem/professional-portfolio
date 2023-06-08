@@ -1,64 +1,160 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Emma Butler Portfolio</title>
-  <link rel="icon" href="src/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="src/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <section class="hero">
-    <nav>
-      <img class="logo" src="src/avatar.JPG" alt="Emma Butler's Logo">
-      <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero-area">
-      <div class="hero-text">
-        <h1>Emma Butler</h1> 
-        <p>Full Stack Developer</p>
-      </div>
+  <head>
+   <title>Emma Butler Portfolio</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+   <link rel="stylesheet" type="text/css" href="src/style.css">
+   <link rel="icon" type="image/x-icon" href="src/logo.JPG">
+   <meta name="author" content="Emma Butler">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav class="nav container void-background">
+    <div class="nav-left">
+      <a href="https://github.com/butlerem" class="nav-item">
+        <span class="icon">
+          <i class="fa fa-github" ></i>
+        </span>
+      </a>
+      <a href="https://instagram.com/emjane.butler" class="nav-item">
+        <span class="icon">
+          <i class="fa fa-instagram"></i>
+        </span>
+        <!-- link linkedin page -->
+        <a href="" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-linkedin" ></i>
+          </span>
+      </a>				
+    </div>
+
+    <div class="nav-right nav-menu">
+      <a class="nav-item" href="#about">About</a>
+      <a class="nav-item" href="#projects">Projects</a>
+      <a class="nav-item" href="#social">Contact Me</a>
+    </div>
+
+    <span class="nav-toggle">
+      <span></span>
+      <span></span> 
+      <span></span>
+    </span>
+  </nav>
+
+  <section id="about" class="section section-1">
+    <div class="container has-text-centered">
+      <img class="avatar" src="src/logo.JPG">
+    </div>
+    <div class="container"></br> 
+      <p class="about">Hello, I'm Emma Butler. I'm 23 years old and located in Ottawa, Ontario. I am a beginner developer enrolled in the Full Stack Web Development bootcamp program. I'm passionate about gaming, game development, and artificial intelligence. I aim to effectively articulate ideas and showcase my work. </p> <br>
+      <p class="about">I'm currently  gaining expertise in HTML, CSS, Git, JavaScript, Bootstrap, the DOM, APIs, JQuery, JSON, and AJAX. I am also  learning to create dynamic interfaces and incorporate external data sources for enhanced user experiences. </p><br>
+      <p class="about">My studies are also extending to back-end development using Node, ES6, Express, MySQL, the MVC paradigm, Sequelize, and testing. My goal is to use this knowledge to create reliable and scalable web applications.</p> <br>
+      <p class="about">Combining my passion and skills, I'm excited to create captivating and innovative experiences in the digital realm. </p>
     </div>
   </section>
-  <main>
-    <section id="about">
-      <h2>About me</h2>
-      <p>My name is Emma Butler, I am 23 years old and live in Ottawa, Ontario. I am a new student of the Full Stack Web Development online bootcamp. So far in the bootcamp, I have learned about Git, HTML, CSS, and JavaScript.</p>
-    </section>
-    <section id="work">
-        <h2>Work</h2>
-        <div class="image-container">
-          <a href="x">
-            <div class="project-label">Project 1</div>
-            <img class="project1" src="src/project1.png" alt="First Project">
-          </a>
-          <a href="xx">
-            <div class="project-label">Project 2</div>
-            <img class="project23" src="src/project2.png" alt="Second Project">
-          </a>
-          <a href="xxx">
-            <div class="project-label">Project 3</div>
-            <img class="project23" src="src/project4.png" alt="Third Project">
-          </a>
+  
+  <section  id="projects" class="section section-2">
+    <div class="container">
+      <div class="has-text-centered">
+        <h3 class="title is-3">Projects</h3>
+      </div>
+      
+      <div class="columns is-multiline is-desktop">
+        <!-- Project 2 -->
+        <div class="column">
+          <div class="box project-text">
+              <div>
+                <figure class="image project-figure">
+                  <a href="https://butlerem.github.io/password-generator/"><img src="src/project2.png" alt="Image"></a>
+                </figure>
+              </div>
+              <div>			
+                <p>Password Generator</p> 
+              </div>
+          </div>
         </div>
-      </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <ul>
-        <li><a href="https://github.com/butlerem">Github</a></li>
-        <li><a href="https://www.instagram.com/emjane.butler/">Instagram</a></li>
-        <li><a href="">Discord</a></li>
-        <li><a href="">Email</a></li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-  </footer>
-  <script src="src/app.js"></script>
-</body>
-</html>
+                <!-- Project 2 -->
+                <div class="column">
+                  <div class="box project-text">
+                    <div>
+                      <figure class="image project-figure">
+                        <a href="https://butlerem.github.io/prework-study-guide/"><img src="src/project1.png" alt="Image"></a>
+                      </figure>
+                    </div>
+                    <div>			
+                      <p>Prework Study Guide Webpage</p>
+                    </div>
+                </div>
+              </div>
+        <!-- Project 3 -->
+        <div class="column">
+          <div class="box project-text">
+            <div>
+              <figure class="image project-figure">
+                <a href="https://butlerem.github.io/coding-quiz/"><img src="src/project3.png" alt="Image"></a>
+              </figure>
+            </div>
+            <div>			
+              <p>Coding Quiz</p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="column">
+          <div class="box project-text">
+            <div>
+              <figure class="image project-figure">
+                <a href="https://butlerem.github.io/work-day-scheduler/"><img src="src/project4.png" alt="Image"></a>
+              </figure>
+            </div>
+            <div>			
+            <p>Work Day Scheduler</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+        <!-- Project 5 -->
+        <div class="column">
+          <div class="box project-text">
+            <div>
+              <figure class="image project-figure"> 
+                  <a href="https://hnm938.github.io/cocktail-cabinet-bootcamp/"><img src="src/project5.png" alt="Image"></a>
+              </figure>
+            </div>
+            <div>			
+            <p>Cocktail Cabinet</p>
+                    </div>
+                </div>
+              </div>
+    </div>
+  </section>
 
+  <section id="social" class="section section-3">
+    <div class="container">				
+        <h3 class="title is-3">Contact Me</h3>
+        <div class="nav-bottom">
+          <a href="https://github.com/butlerem" class="nav-item">
+            <span class="icon">
+              <i class="fa fa-github" ></i>
+            </span>
+          </a>
+          <a href="https://instagram.com/emjane.butler" class="nav-item">
+            <span class="icon">
+              <i class="fa fa-instagram"></i>
+            </span>
+            <!-- link linkedin page -->
+            <a href="" class="nav-item">
+              <span class="icon">
+                <i class="fa fa-linkedin" ></i>
+              </span>
+          </a>				
+  </section>	
+  
+  <section class="section-4 has-text-centered container">
+    <a></a>Emma Butler</a>
+  </section>
+  <script src="src/script.js"></script>		
+</body>	
+</html>
